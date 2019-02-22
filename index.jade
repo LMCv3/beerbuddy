@@ -1,4 +1,14 @@
 doctype html
 html
-	link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
-	div hi
+	head
+		link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+		script(type='text/javascript', src='bower_components/angular/angular.js')
+		script(type='text/javascript', src='app/app.js')
+	body(ng-app='app')
+		.container
+			h1 Check out these delicious beers!
+			div(ng-controller='testCtrl')
+				.list-group
+						a.list-group-item(href='#')(ng-repeat="beer in beers")
+							h4.list-group-item-heading {{ beer.title }}
+							p.list-group-item-text {{ beer.description }}

@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 app.set('views', __dirname);
 app.set('view engine', 'jade');
 
@@ -11,4 +13,4 @@ app.get('*', function(req, res) {
 	res.render('index');
 });
 
-app.listen(3000, '127.0.0.1');
+app.listen(port);

@@ -1,0 +1,10 @@
+{
+	"name": "beerbuddy",
+	"version": "1.0.0",
+	"authors": [
+		"Louis McCoy <louie@louiemccoy.com>"
+	],
+	"description": "Keeping track of your Beer Brewing",
+	"license": "GPLv3",
+	"private": true
+}

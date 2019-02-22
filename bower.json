@@ -1,10 +1,14 @@
 {
-	"name": "beerbuddy",
-	"version": "1.0.0",
-	"authors": [
-		"Louis McCoy <louie@louiemccoy.com>"
-	],
-	"description": "Keeping track of your Beer Brewing",
-	"license": "GPLv3",
-	"private": true
+  "name": "beerbuddy",
+  "version": "1.0.0",
+  "authors": [
+    "Louis McCoy <louie@louiemccoy.com>"
+  ],
+  "description": "Keeping track of your Beer Brewing",
+  "license": "GPLv3",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "angular": "^1.7.7"
+  }
 }
